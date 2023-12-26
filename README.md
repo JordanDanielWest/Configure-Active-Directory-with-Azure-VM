@@ -39,6 +39,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Username & Password (take note of both)
 - Review + Create
 - Create
+- (Take 10 minute break for the deployment of DC-1 to finish, we will use the same Resource Group and Virtual Network for Client-1)
+- Select DC-1 VM
+- Network Settings
+- Select "Network interface/IP configuration"
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/26d5f969-5d22-4fef-8ed8-f4ca9a105fa4)
+
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
