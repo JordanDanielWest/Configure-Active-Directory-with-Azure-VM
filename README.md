@@ -19,7 +19,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Setup Resources in Azure
+- Setup Resources in Azure (DC-1 & client-1)
 - Check connectivity between Client 1 and Domain Controller
 - Install Active Directory
 - Join Client-1 to your domain (JordanWest.com)
@@ -27,6 +27,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create Additional Users and confirm ability to log into Client-1
 
 <h2>Deployment and Configuration Steps</h2>
+<h3>Setup Resources in Azure</h3>
+
+- Create Domain Controller VM (Windows Server 2022) name "DC-1" in Microsoft Azure
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/c082a50f-5eaf-4789-8075-69af0ac17e37)
+
+- Create: Azure Virtual Machine
+- Virtual Machine Name: DC-1
+- Which ever Region you use needs to be the same on DC-1 and Client-1
+- Image: Windows Server 2022
+- Username & Password (take note of both)
+- Review + Create
+- Create
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
