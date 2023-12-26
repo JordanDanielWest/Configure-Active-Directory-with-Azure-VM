@@ -34,7 +34,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Create: Azure Virtual Machine
 - Virtual Machine Name: DC-1
-- Which ever Region you use needs to be the same on DC-1 and Client-1
+- Regions: Which ever Region you use needs to be the same on DC-1 and Client-1
 - Image: Windows Server 2022
 - Username & Password (take note of both)
 - Review + Create
@@ -43,30 +43,26 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Select DC-1 VM
 - Network Settings
 - Select "Network interface/IP configuration"
+
 ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/26d5f969-5d22-4fef-8ed8-f4ca9a105fa4)
 
+- Take note that the Private IP Address is set to Dynamic
+- Select ipconfig1
+
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/86001b7c-1064-4124-b402-7398b5a22d62)
+
+- Set Private IP address settings Allocation to Static
+- Save
+
+- Home
+- Virtual Machines
+- Create: Azure Virtual Machine
+- Resource Group: DC-1_group (This resource group was created automatically when you created first VM)
+- Virtual Machine Name: Client-1
+- Region: Same as Region set in DC-1
+- 
+- 
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
