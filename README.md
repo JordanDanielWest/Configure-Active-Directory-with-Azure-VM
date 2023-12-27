@@ -138,12 +138,24 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/aceecbd9-4c3b-4ded-a1b4-a175707b7809)
 
-- User logon mname: jane_admin
+- User logon name: jane_admin
 - Next
 - Create password
 - Chek "Password never expires"
 - Next
 - Finish
+- Richt-click Jane Doe
+- Properties
+- Member Of
+- Add
+- Domain Admins
+- OK
+- Apply
+- Log out and then log back in as jane_doe
+
+
+
+
 
 </p>
 <br />
