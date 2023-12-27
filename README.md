@@ -177,7 +177,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - In Command Line use ipconfig /all to confirm DNS Server is same as DC-1's IP Address
 ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/31725425-801b-4c91-9773-ea83cd575852)
 
-- Join Client-1 to the domain
+- WinKey + X
+- System
+- Rename this PC
+- Network ID
+- This computer is part of a business network: I use it to connect to other computers
+- My company uses a network with a domain
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/d99a7b43-2f8d-4e73-a97a-3370b69a6e52)
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/543fdf4f-e01b-4a7b-add5-b21ab45f98ac)
+
 
 
 
