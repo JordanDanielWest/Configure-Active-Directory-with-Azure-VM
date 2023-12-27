@@ -191,6 +191,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/bc9cc8ee-c09e-408a-a78d-a8881f61cfae)
 
+- Move Client-1 into "_CLIENTS" folder for organizational purposes
+
+<h3>Setup Remote Desktop for on-administrative users on Client-1</h3>
+
 
 
 
