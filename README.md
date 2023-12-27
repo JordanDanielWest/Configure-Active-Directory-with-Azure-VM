@@ -181,7 +181,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - System
 - Rename this PC
 - Change
-- 
+- Member of: Domain
+- Enter domain name "JordanWest.com"
+- Username: jordanwest.com\jane_admin (enter admin account we created)
+- Enter Password
+- Will recieve welcome message
+- Client-1 will restart
+- Log into DC-1 and confirm Client-1 shows up in Active Directory ussers and coomputer inside the "computers" container of the root domain
+
 
 
 
