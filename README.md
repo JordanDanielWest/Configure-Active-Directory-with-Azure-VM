@@ -71,6 +71,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Review + Create
 - Create
 
+<h3>Ensure Connectivity between DC-1 and Client 1</h3>
+
+- Using Remote Desktop log in to Client-1
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/fc611c98-3283-49ca-8f54-91822d5bb2af)
+
+- Use IP Address from Azure Portal
+- Input Username and Password from Client-1 VM creation
+- You can select no on all privacy settings
+- WinKey + R
+- cmd
+- ping -t 10.0.0.4 (the static IP address for DC-1)
+- You will recieve request timed out
+- Log in to DC-1 via Remote Desktop
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/0e3cb3ea-16bf-480f-bd20-5f3a0e6ed705)
+
+- Type wf.msc into windows search bar
+- Inbound Rules
+- Sort by Protocol
+- Scroll down to ICMPv4
+- Enable both "Core Networking Diagnostics - ICMP Ehco Request(ICMPv4-In)"
+
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/8c52f05b-f960-4e3a-90a7-bb666668bd16)
+
 
 </p>
 <br />
