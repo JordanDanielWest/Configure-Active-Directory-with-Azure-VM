@@ -133,6 +133,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Select New
 - Organizational Unit
 - Name it "_EMPLOYEES"
+- Create another Organizational Unit name "_CLIENTS"
 - Create another Organizational Unit named "_ADMINS"
 - Create new employee named Jane Doe Inside "_ADMINS"
 
@@ -151,7 +152,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Domain Admins
 - OK
 - Apply
-- Log out and then log back in as jane_doe
+- Log out and then log back in as jane_admin
+
+<h3>Join Client-1 to your domain (JordanWest.com)</h3>
 
 
 
