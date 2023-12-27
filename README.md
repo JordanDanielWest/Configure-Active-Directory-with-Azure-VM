@@ -188,6 +188,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Will recieve welcome message
 - Client-1 will restart
 - Log into DC-1 and confirm Client-1 shows up in Active Directory ussers and coomputer inside the "computers" container of the root domain
+
 ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/bc9cc8ee-c09e-408a-a78d-a8881f61cfae)
 
 
