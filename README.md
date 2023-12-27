@@ -94,6 +94,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/8c52f05b-f960-4e3a-90a7-bb666668bd16)
 
+- Return to Client-1 Remote Desktop and your Command Lins should show "Reply from 10.0.0.4"
+
 
 </p>
 <br />
