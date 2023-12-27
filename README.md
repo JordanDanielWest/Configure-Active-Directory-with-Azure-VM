@@ -90,7 +90,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Inbound Rules
 - Sort by Protocol
 - Scroll down to ICMPv4
-- Enable both "Core Networking Diagnostics - ICMP Ehco Request(ICMPv4-In)"
+- Enable both "Core Networking Diagnostics - ICMP Echo Request(ICMPv4-In)"
 
 ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/8c52f05b-f960-4e3a-90a7-bb666668bd16)
 
@@ -98,7 +98,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Install Active Directory</h3>
 
-
+- Log in to DC-1 via Remote Desktop
+- In the Server Manger Dashboard select Add roles and features
+- Next
+- Role-based or feature-based installation
+- Next
+- Select a server from the server pool: DC-1
+- Next
+- Select Active Directory Domain Services
+- Add Features
+- Next
+- Next
+- Next
+- Install
 
 
 </p>
