@@ -123,7 +123,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Next
 - Install
 - Once installation is complete server will automatically restart and disconnect you from Remote Desktop
-- Log back in as JordanWest.com\labuser ("domain name"\"Username")
+- Log back in as JordanWest.com\labuser ("domain name\Username")
 - 
 
 
