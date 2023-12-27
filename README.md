@@ -34,8 +34,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Create: Azure Virtual Machine
 - Virtual Machine Name: DC-1
-- Regions: Which ever Region you use needs to be the same on DC-1 and Client-1
+- Region: Which ever Region you use needs to be the same on DC-1 and Client-1
 - Image: Windows Server 2022
+- Size: 2vcpus, 16 GiB Memory
 - Username & Password (take note of both)
 - Review + Create
 - Create
