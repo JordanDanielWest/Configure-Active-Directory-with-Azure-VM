@@ -180,11 +180,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - WinKey + X
 - System
 - Rename this PC
-- Network ID
-- This computer is part of a business network: I use it to connect to other computers
-- My company uses a network with a domain
-![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/d99a7b43-2f8d-4e73-a97a-3370b69a6e52)
-
+- Change
+- 
 
 
 
