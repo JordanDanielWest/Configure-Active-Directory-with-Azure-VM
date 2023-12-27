@@ -127,6 +127,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Create an Admin and Normal User Account in Active Directory</h3>
 
+- In Server Manger select tools
+- From the drop down menu select Active Directory Users and Computers
+- 
+
 
 </p>
 <br />
