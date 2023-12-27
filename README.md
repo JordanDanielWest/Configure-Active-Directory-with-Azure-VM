@@ -169,9 +169,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Custom
 - Input DC-1's Private IP Address
 
-- ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/2dcdef92-49ed-4992-8abe-1e10acc76422)
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/2dcdef92-49ed-4992-8abe-1e10acc76422)
+
+- Save
+- Restart Client-1 from Azure
+- Log in to Client-1 via Remote Desktop
+- In Command Line use ipconfig /all to confirm DNS Server is same as DC-1's IP Address
 
 
+- Join Client-1 to the domain
 
 
 
