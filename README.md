@@ -204,7 +204,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h3>Create a list of additional users and attempt to log into Client-1 with one the</h3>
 
 - Log into DC-1 as jane_admin
-- Open PowerShell as administrator
+- Open PowerShell_ISE as administrator
 - Create new file and paste contents of script into it
 - Script: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1
 - Run Script
