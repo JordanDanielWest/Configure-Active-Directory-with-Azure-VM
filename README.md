@@ -156,6 +156,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Join Client-1 to your domain (JordanWest.com)</h3>
 
+- From Azure Portal, set Client-1's DNS settings to the DC-1's Private IP Address
+- First get DC-1 private IP address from Azure VM
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/2d8d499d-064a-4529-9ee5-1f34a3bb9775)
+
+- Go to Client-1 Network Settings
+- Click Network interface/IP configuration
+
+![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/3d035a75-c898-4d37-81db-ae5407c4b14b)
+
+- DNS Servers
+- Custom
+- Input DC-1's Private IP Address
+
+- ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/2dcdef92-49ed-4992-8abe-1e10acc76422)
+
+
+
+
+
 
 
 
