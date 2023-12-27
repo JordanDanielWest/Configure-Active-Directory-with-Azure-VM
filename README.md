@@ -61,8 +61,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Resource Group: DC-1_group (This resource group was created automatically when you created first VM)
 - Virtual Machine Name: Client-1
 - Region: Same as Region set in DC-1
-- 
-- 
+- Image: Windows 10
+- Size: 2vcpus, 16 GiB Memory
+- Username & Password
+- Check box "I confirm I have an eligible Windows10/11 license with multi-tenant hosting rights"
+- Click Next
+- Click Next
+- Virtual Network: DC-1-vnet (this vnet was automatically created when we set up Dc-1)
+- Review + Create
+- Create
 
 
 </p>
