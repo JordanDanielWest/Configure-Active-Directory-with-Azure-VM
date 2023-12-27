@@ -129,6 +129,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - In Server Manger select tools
 - From the drop down menu select Active Directory Users and Computers
+- Right-click JordanWest.com (name of your Domain Conttroller)
+- Select New
+- Organizational Unit
+- Name it "_EMPLOYEES"
+- Create another Organizational Unit named "_ADMINS"
 - 
 
 
