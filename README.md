@@ -111,6 +111,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Next
 - Next
 - Install
+- AFter installation, select flag in top right corner with yellow indicator
+- Promote this server to a domain controller
+- Add a new forest
+- JordanWest.com (whatever domain name you want)
+- Input a password (DSRM we will not use)
+- Next
+- Next
+- Once NetBIOS domain name autofills, select Next
+- Next
+- Next
+- Install
+- Once installation is complete server will automatically restart and disconnect you from Remote Desktop
+- Log back in as JordanWest.com\labuser ("domain name"\"Username")
+- 
 
 
 </p>
