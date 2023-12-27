@@ -124,7 +124,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Install
 - Once installation is complete server will automatically restart and disconnect you from Remote Desktop
 - Log back in as JordanWest.com\labuser ("domain name\Username")
-- 
+
+<h3>Create an Admin and Normal User Account in Active Directory</h3>
 
 
 </p>
