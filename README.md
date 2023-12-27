@@ -111,7 +111,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Next
 - Next
 - Install
-- AFter installation, select flag in top right corner with yellow indicator
+- After installation, select flag in top right corner with yellow indicator
 - Promote this server to a domain controller
 - Add a new forest
 - JordanWest.com (whatever domain name you want)
