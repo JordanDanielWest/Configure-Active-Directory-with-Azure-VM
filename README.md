@@ -67,7 +67,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Check box "I confirm I have an eligible Windows10/11 license with multi-tenant hosting rights"
 - Click Next
 - Click Next
-- Virtual Network: DC-1-vnet (this vnet was automatically created when we set up Dc-1)
+- Virtual Network: DC-1-vnet (this vnet was automatically created when we set up DC-1)
 - Review + Create
 - Create
 
