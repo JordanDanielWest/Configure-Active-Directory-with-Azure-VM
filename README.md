@@ -184,7 +184,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - This computer is part of a business network: I use it to connect to other computers
 - My company uses a network with a domain
 ![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/d99a7b43-2f8d-4e73-a97a-3370b69a6e52)
-![image](https://github.com/JordanDanielWest/Configure-Active-Directory-with-Azure-VM/assets/96628562/543fdf4f-e01b-4a7b-add5-b21ab45f98ac)
 
 
 
